@@ -1,0 +1,128 @@
+[
+  {
+    "doc_id": "ac-filter",
+    "title": "AC filter",
+    "source_pdf": "leaflet---ac-filter-4615-en.pdf",
+    "product_ids": ["ac_filter"],
+    "product_names": ["AC filter"],
+    "product_family": "solution_filter",
+    "edition": "4615-en",
+    "page_count": 2
+  },
+  {
+    "doc_id": "cellstation",
+    "title": "CellStation",
+    "source_pdf": "cellstation-4423-11-23-en-mng.pdf",
+    "product_ids": ["cellstation"],
+    "product_names": ["CellStation"],
+    "product_family": "control_system",
+    "applies_to": [
+      { "family": "flotation", "quote": "controlling the air feed and pulp level in flotation cells", "page": 1 }
+    ],
+    "edition": "4423-11-23",
+    "page_count": 3
+  },
+  {
+    "doc_id": "columncell",
+    "title": "ColumnCell",
+    "source_pdf": "brochure-columncell-4797-01-24-en-mng.pdf",
+    "product_ids": ["columncell"],
+    "product_names": ["ColumnCell"],
+    "product_family": "flotation",
+    "edition": "4797-01-24",
+    "page_count": 4
+  },
+  {
+    "doc_id": "concorde-cell",
+    "title": "Concorde Cell",
+    "source_pdf": "brochure---concorde-cell-4426-en.pdf",
+    "product_ids": ["concorde_cell"],
+    "product_names": ["Concorde Cell"],
+    "product_family": "flotation",
+    "edition": "4426-en",
+    "page_count": 12
+  },
+  {
+    "doc_id": "filter-optimizer",
+    "title": "Filter optimizer",
+    "source_pdf": "brochure-filter_optimizer-4897-06-23-en-mng.pdf",
+    "product_ids": ["filter_optimizer"],
+    "product_names": ["Filter optimizer"],
+    "product_family": "control_system",
+    "applies_to": [
+      { "family": "pressure_filter", "quote": "improves the performance of the Metso pressure filters", "page": 2 }
+    ],
+    "edition": "4897-06-23",
+    "page_count": 4
+  },
+  {
+    "doc_id": "floatforce-upgrade",
+    "title": "FloatForce upgrade",
+    "source_pdf": "leaflet_floatforce-upgrade_en.pdf",
+    "product_ids": ["floatforce_upgrade"],
+    "product_names": ["FloatForce"],
+    "product_family": "flotation",
+    "edition": "no code",
+    "page_count": 3
+  },
+  {
+    "doc_id": "gm-filter",
+    "title": "GM filter",
+    "source_pdf": "leaflet-gm-5222-08-24-en-met.pdf",
+    "product_ids": ["gm_filter"],
+    "product_names": ["GM filter"],
+    "product_family": "solution_filter",
+    "edition": "5222-08-24",
+    "page_count": 1
+  },
+  {
+    "doc_id": "larox-pf-brochure-a",
+    "title": "Larox PF filter",
+    "source_pdf": "larox-pf-brochure.pdf",
+    "product_ids": ["larox_pf"],
+    "product_names": ["Larox PF"],
+    "product_family": "pressure_filter",
+    "edition": "no code (Metso Outotec branding)",
+    "page_count": 8
+  },
+  {
+    "doc_id": "larox-pf-brochure-b",
+    "title": "Larox PF filter",
+    "source_pdf": "larox-pf-filter-brochure-4398-09-24-en-mng.pdf",
+    "product_ids": ["larox_pf"],
+    "product_names": ["Larox PF"],
+    "product_family": "pressure_filter",
+    "edition": "4398-09-24",
+    "page_count": 12
+  },
+  {
+    "doc_id": "larox-pf-ds",
+    "title": "Larox PF-DS",
+    "source_pdf": "brochure-laroxpfds-4768-10-25-en-mng-web.pdf",
+    "product_ids": ["larox_pf_ds"],
+    "product_names": ["Larox® PF-DS"],
+    "product_family": "pressure_filter",
+    "edition": "4768-10-25",
+    "page_count": 8
+  },
+  {
+    "doc_id": "md-series-pump",
+    "title": "MD series mill discharge pumps",
+    "source_pdf": "leaflet-mdseries-4241-08-23-en-mng.pdf",
+    "product_ids": ["md_series_pump"],
+    "product_names": ["MD series"],
+    "product_family": "pump",
+    "edition": "4241-08-23",
+    "page_count": 4
+  },
+  {
+    "doc_id": "orion-series-pump",
+    "title": "Orion series horizontal slurry pumps",
+    "source_pdf": "brochure_orion_series_4368-08-2021-en-mng_lr.pdf",
+    "product_ids": ["orion_series_pump"],
+    "product_names": ["Orion series"],
+    "product_family": "pump",
+    "edition": "4368-08-2021",
+    "page_count": 12
+  }
+]
