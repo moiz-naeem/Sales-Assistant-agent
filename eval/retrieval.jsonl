@@ -1,0 +1,13 @@
+{"id":"product-test-prompt","category":"product test prompt","query":"We have Larox pressure filters but performance drops whenever our feed grade changes","expected_parents":["filter-optimizer:p2"]}
+{"id":"pf-ds-code","category":"exact product code","query":"PF-DS chamber filtration area","expected_parents":["larox-pf-ds:p2","larox-pf-ds:p4","larox-pf-ds:p5"]}
+{"id":"pf-ds-spec-table","category":"flattened spec table","query":"Larox PF-DS chamber volume with 40 mm chambers and 12 chambers","expected_parents":["larox-pf-ds:p5"]}
+{"id":"pf-1-6-both-editions","category":"both PF editions","query":"Larox PF 1.6 series filtration area and chamber volume","expected_parents":["larox-pf-brochure-a:p3","larox-pf-brochure-b:p5"]}
+{"id":"pf-60-model-2025","category":"exact product code","query":"Larox PF 60 Model 2025","expected_parents":["larox-pf-brochure-b:p8"]}
+{"id":"fine-particle-flotation","category":"flotation","query":"recovery of fine and ultra-fine particles in flotation","expected_parents":["concorde-cell:p2"]}
+{"id":"concorde-datasheet","category":"flotation","query":"Concorde Cell maximum slurry density and flotation cell capacity","expected_parents":["concorde-cell:p4"]}
+{"id":"mixing-mechanism-upgrade","category":"flotation","query":"upgrade the mixing mechanism on existing OK or TankCell flotation cells","expected_parents":["floatforce-upgrade:p2"]}
+{"id":"pulp-level-family-filter","category":"family filter","query":"pulp level and air feed control","filters":{"product_family":"flotation"},"expected_parents":["cellstation:p1","cellstation:p2"]}
+{"id":"slurry-pump-wear","category":"pump","query":"slurry pump wear life and wear resistant materials","expected_parents":["orion-series-pump:p3","md-series-pump:p2"]}
+{"id":"mdm300-case","category":"pump","query":"MDM300 mill discharge pump power savings","expected_parents":["md-series-pump:p3"]}
+{"id":"insoluble-organics","category":"solution filter","query":"remove insoluble organics before the AC filter","expected_parents":["gm-filter:p1"]}
+{"id":"no-answer-crusher","category":"no answer","query":"price and delivery time of a jaw crusher","expected_parents":[]}
