@@ -1,0 +1,22 @@
+[
+  {
+    "doc_id": "metso-tf-900",
+    "title": "Metso Filter TF-900",
+    "source_pdf": "metso-tf-900.pdf",
+    "product_ids": ["metso_tf_900"],
+    "product_names": ["Metso TF-900"],
+    "product_family": "pressure_filter",
+    "edition": "test-2024",
+    "page_count": 2
+  },
+  {
+    "doc_id": "metso-tp-50",
+    "title": "Metso Pump TP-50",
+    "source_pdf": "metso-tp-50.pdf",
+    "product_ids": ["metso_tp_50"],
+    "product_names": ["Metso TP-50"],
+    "product_family": "pump",
+    "edition": "test-2024",
+    "page_count": 2
+  }
+]
