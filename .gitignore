@@ -1,0 +1,29 @@
+# Secrets (LLM API keys)
+.env
+.env.*
+!.env.example
+
+
+# Node
+node_modules/
+dist/
+
+#data
+data/
+
+# Agent trace logs
+logs/
+
+# Generated indexes / caches
+.cache/
+*.faiss
+index/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+

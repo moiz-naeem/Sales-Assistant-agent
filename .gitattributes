@@ -1,0 +1,2 @@
+# The LanceDB index is binary data. 
+knowledge/lancedb/** -text
