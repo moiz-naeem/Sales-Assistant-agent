@@ -1,0 +1,32 @@
+{
+  "name": "sales-assistant-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Command-line sales assistant that answers from Metso brochures and historical service reports.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "chat": "tsx src/cli.ts",
+    "ingest": "npm run ingest:brochures && npm run ingest:services",
+    "ingest:brochures": "tsx scripts/ingest-brochures.ts",
+    "ingest:services": "tsx scripts/ingest-services.ts",
+    "ingest:eval": "tsx scripts/ingest-brochures.ts --src eval/fixtures/brochures --out eval/fixtures/lancedb --manifest eval/fixtures/brochures.manifest.json",
+    "test": "vitest run --passWithNoTests",
+    "eval": "tsx eval/run.ts",
+    "eval:retrieval": "tsx eval/retrieval.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.30.0",
+    "@lancedb/lancedb": "^0.40.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}
