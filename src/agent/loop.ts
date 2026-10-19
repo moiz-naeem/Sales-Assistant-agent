@@ -98,7 +98,7 @@ export async function handleMessage(state: SessionState, text: string, deps: Loo
         allowedTools: lastChance ? ["submit_answer"] : undefined,
       });
     } catch (error) {
-      // The model is the one thing we cannot ask again from in here, so the turn ends and says so.
+
       return finish(`${FAILED} The assistant could not be reached: ${message(error)}`, "failure");
     }
     const calls = response.functionCalls ?? [];
@@ -226,7 +226,22 @@ function checkCall(
   const { grounded, missing } = checkSlots(state, name, args, slot_quotes);
   trace.slots.grounded.push(...grounded);
   trace.slots.missing.push(...missing);
-  if (missing.length) {
+    if (missing.length) {
+    // A field the model quoted but left empty is the model's slip, not a gap in what the customer said.
+    // we xend it back to the model to fill instead of asking the customer for something they already gave.
+    const quotedButUnset = missing.filter(
+      (field) => slot_quotes?.[field] != null && (args[field] == null || args[field] === ""),
+    );
+    if (quotedButUnset.length) {
+      return {
+        result: toolError(
+          name,
+          "validation",
+          `You quoted ${quotedButUnset.join(", ")} but did not set ${quotedButUnset.length === 1 ? "its value" : "their values"}. ` +
+            `Map the words to our values (for task, one task tag) and set each field, then call again.`,
+        ),
+      };
+    }
     if (!canAsk) {
       return {
         result: toolError(
